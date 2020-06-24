@@ -4,7 +4,7 @@ class ProductsController < ApplicationController
     @cart = helpers.cart
   end
 
-  def add
+  def create
   end
 
 end
