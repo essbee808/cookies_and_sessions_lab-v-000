@@ -7,4 +7,8 @@ class ProductsController < ApplicationController
   def add
   end
 
+  private
+
+  def 
+
 end
