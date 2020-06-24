@@ -1,5 +1,5 @@
 <h1>Cart</h1>
 
 <%= form_for @product, url: {controller: "products", action: "add"} do |f| %>
-  <% f.submit %>
+  <% f.submit "add to cart" %>
 <% end %>
