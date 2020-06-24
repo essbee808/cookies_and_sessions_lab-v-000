@@ -1,7 +1,7 @@
 class ProductsController < ApplicationController
 
   def index
-    @cart = helpers.cart
+    @product = Product.find(params[:id])
   end
 
   def add
