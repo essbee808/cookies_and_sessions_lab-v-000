@@ -9,6 +9,6 @@ class ProductsController < ApplicationController
 
   private
 
-  def 
+  def product
 
 end
