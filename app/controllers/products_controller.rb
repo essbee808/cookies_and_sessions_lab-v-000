@@ -6,12 +6,8 @@ class ProductsController < ApplicationController
   end
 
   def add
-  end
-
-  def new
-  end
-
-  def show
+    cart << params[:product]
+    render :index
   end
 
 
