@@ -1,6 +1,6 @@
 <h1>Cart Form</h1>
 
 <%= form_for(@cart) do |f| %>
-  <% f.text_field %>
+  <% f.text_field :product %>
   <% f.submit "add to cart" %>
 <% end %>
